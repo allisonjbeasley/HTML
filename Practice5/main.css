@@ -1,0 +1,17 @@
+body {
+    color: pink;
+    font-weight:bold;
+}
+h1 {
+    color:red;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    font-style: italic;
+}
+
+/* Comments work the same as java */

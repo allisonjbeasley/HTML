@@ -1,0 +1,54 @@
+#leftBlock {
+    float: left;
+    width: 200px;
+    min-width: 200px;
+    border: thin solid black;
+    padding: 10px;
+    margin-left: 10px;
+}
+#otherBlock {
+    border: thin solid red;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 10px;
+    padding: 10px;
+    height: 20em;
+    overflow: auto;
+}
+
+.leftPic {
+    float: left;
+    margin: 5px;
+}
+
+.rightPic {
+    float: right;
+    margin: 1em;
+}
+
+header{
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+body {
+    font-family: Verdana,Arial,sans-serif;
+}
+
+.alert{
+    color: orange;
+    font-style: italic;
+}
+
+a:link{
+    color: darkcyan;
+    text-decoration: none;
+}
+
+a:visited{
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color: paleturquoise;
+}

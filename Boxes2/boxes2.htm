@@ -4,13 +4,17 @@
 
 <head>
   <title>Boxing 3</title>
+    <link rel="stylesheet" href="main1.css"/>
+    <!-- The following links are to install embedded fonts. If they don't work I still have backups in place.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     #header { font-size: 200%; }
  	#leftBlock {
 	    float: left;
 		width: 150px;
 		min-width: 150px;
-		border: thin solid black;
 		padding-top: 0px;
         padding: 10px;
 		}
@@ -18,12 +22,10 @@
     	float:right;
     	width: 265px;
     	min-width: 265px;
-        border: thin solid black;
       	padding-top: 0px;
         padding: 10px;
     	}
     #centerBlock {
-        border: thin solid red;
       	margin-left: 185px;
       	margin-right: 300px;
       	padding-top: 0px;
@@ -32,30 +34,29 @@
     #leftBlock h2 {
     	margin-top: 0px;
     	padding: 5px;
-    	border: 1px solid blue;
     	}
     #rightBlock h2 {
     	margin-top: 0px;
     	padding: 5px;
-    	border: 1px solid blue;
     	}
     #centerBlock h1 {
     	margin-top: 0px;
     	padding: 5px;
-    	border: 1px solid blue;
     	}
     #footer {
-        margin-top: 10px;
+        margin-top: 30px;
         padding: 10px;
-        border: 1px solid blue;
+    }
+    .center {
+        text-align: center;
     }
   </style>
 </head>
 
 <body>
 
-<div id="header">
-    <h1>Head block</h1>
+<div id="header" class="center">
+    <h1>Allison's Online Store</h1>
 </div>
 <div id="leftBlock">
     <h2>Menu</h2>
@@ -73,89 +74,56 @@
     </p>
 </div>
 <div id="rightBlock">
-    <h2>Right</h2>
+    <h2>Store Information</h2>
+    <h3>Returns</h3>
     <p>
-        asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-    	alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-   		lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-   		aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-    	lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-    	alsjf lajsd lsadfj lajsdflds
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium enim libero, non pharetra nisi scelerisque in. Nam commodo laoreet tristique. Nunc eleifend semper semper. Vestibulum sem risus, congue a aliquet ac, laoreet non nibh. Curabitur dui nisl, faucibus nec elementum sit amet, efficitur sed sapien. Cras odio lectus, rhoncus in sus.
+    </p>
+    <h3>Shipping</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium enim libero, non pharetra nisi scelerisque in. Nam commodo laoreet tristique. Nunc eleifend semper semper. Vestibulum sem risus, congue a aliquet ac, laoreet non nibh. Curabitur dui nisl, faucibus nec elementum sit amet, efficitur sed sapien. Cras odio lectus, rhoncus in sus.
     </p>
 </div>
 <div id="centerBlock">
-    <h1>Center</h1>
+    <h1>Our Products</h1>
     <p>
-        PARA 1 - lsjdf lsjf lsjf lsj lsjfdl jdslfj sl fjldsjlsdjf lsjf lsjf
-        sdlf jdslfj slfj lsdjf lsjdf ljsdf lsdjf ldsjfldsjf lsdjf l
-        sdfl jsldf jsdfl jsdlf jdsl fjdslfj sdl fjsdfljs ldjs ldfjs
-        sdlfj lsdfj lsdfj lsdfjsdjfk ldfsj l
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium enim libero, non pharetra nisi scelerisque in. Nam commodo laoreet tristique. Nunc eleifend semper semper. Vestibulum sem risus, congue a aliquet ac, laoreet non nibh. Curabitur dui nisl, faucibus nec elementum sit amet, efficitur sed sapien. Cras odio lectus, rhoncus in suscipit et, faucibus vitae tellus. Quisque eu elementum nisl, eu lacinia nisl. Nam efficitur quam ac gravida ultrices. Vivamus auctor luctus mi a commodo. Donec accumsan quam sollicitudin odio mollis, at eleifend purus pulvinar. Pellentesque hendrerit dolor sed dui efficitur volutpat.
     </p>
     <p>
-        PARA 2 - lsjf lsjf lsj lsjfdl jdslfj sl fjldsjlsdjf lsjf lsjf
-        sdlf jdslfj slfj lsdjf lsjdf ljsdf lsdjf ldsjfldsjf lsdjf l
-        sdfl jsldf jsdfl jsdlf jdsl fjdslfj sdl fjsdfljs ldjs ldfjs
-        sdlfj lsdfj lsdfj lsdfjsdjfk ldfsj l
+        Phasellus viverra tristique metus et pulvinar. Vivamus in odio mollis, condimentum sapien ac, sollicitudin erat. Curabitur vestibulum nisl eget lectus bibendum vulputate. Vestibulum efficitur aliquet massa nec dapibus. Morbi venenatis at magna suscipit interdum. Aliquam ut dictum tortor, id scelerisque neque. Donec vulputate finibus placerat. Ut vel interdum justo, vitae pretium ipsum. Integer ornare lacus non justo commodo molestie. Nulla pellentesque ipsum lacinia justo imperdiet, id venenatis leo finibus. Nullam ac magna ultricies, ultrices tortor sit amet, interdum velit. Suspendisse tincidunt facilisis nisi, dapibus facilisis eros efficitur sed. Pellentesque lacinia nibh arcu, id molestie lectus venenatis non. Duis feugiat viverra dignissim. Aliquam porttitor leo at ex scelerisque, sit amet malesuada nunc elementum. Donec eu placerat nulla.
     </p>
     <p>
-        PARA 3 - lsjf lsjf lsj lsjfdl jdslfj sl fjldsjlsdjf lsjf lsjf
-        sdlf jdslfj slfj lsdjf lsjdf ljsdf lsdjf ldsjfldsjf lsdjf l
-        sdfl jsldf jsdfl jsdlf jdsl fjdslfj sdl fjsdfljs ldjs ldfjs
-        sdlfj lsdfj lsdfj lsdfjsdjfk ldfsj l
-    </p>
-
-    <p>
-        asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-        alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-        lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-        aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-        lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-        alsjf lajsd lsadfj lajsdflds
-    </p>
-
-    <p>
-        asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-        alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-        lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-        aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-        lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-        alsjf lajsd lsadfj lajsdflds
-    </p>
-
-    <p>
-        asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-        alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-        lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-        aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-        lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-        alsjf lajsd lsadfj lajsdflds
+        Aenean sed molestie dolor. Phasellus a pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer consectetur nisi eu augue pellentesque egestas. Duis neque sem, efficitur et consectetur quis, molestie eget lacus. Donec quis nibh vitae ipsum convallis tristique. Aliquam eget faucibus metus. Vivamus vehicula ex id aliquet blandit. Nam tempus, purus laoreet interdum luctus, ligula dolor egestas lacus, non consectetur risus risus at lorem. Integer tempus nulla magna, in vehicula ex hendrerit at. Aliquam erat volutpat. Mauris suscipit laoreet tellus, sit amet pretium nisi lacinia a. Maecenas efficitur sapien in elit sagittis, id blandit eros vehicula.
     </p>
     <p>
-        asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-        alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-        lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-        aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-        lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-        alsjf lajsd lsadfj lajsdflds
+        Vestibulum condimentum eleifend mauris, vel maximus neque sodales et. Vivamus sagittis arcu sed velit tempus, sit amet scelerisque quam bibendum. Vivamus nec risus magna. Morbi euismod mauris erat, sit amet maximus est facilisis ac. Nulla eget erat tellus. Fusce consectetur lorem at blandit viverra. Nulla dapibus ex a neque rhoncus molestie. Aenean eget eros gravida, sollicitudin leo in, blandit enim. Donec nec fermentum ligula.
+    </p>
+    <p>
+        Maecenas interdum nisl ac gravida vestibulum. Vivamus vel lectus id orci euismod tristique. Mauris iaculis ac justo in gravida. Duis feugiat molestie convallis. Vivamus nec mattis turpis, eget consectetur sem. In a sapien tristique arcu pellentesque aliquet. Vivamus molestie bibendum massa vitae ultrices. Ut ut justo bibendum, elementum nulla at, efficitur arcu. Ut maximus pellentesque elit vitae suscipit.
+    </p>
+    <p>
+        Aliquam erat volutpat. Aenean tempor lorem sed ex rutrum facilisis. Suspendisse potenti. Suspendisse potenti. Nulla non vestibulum ipsum. Vivamus commodo, orci sit amet feugiat fermentum, lorem metus volutpat nibh, in vehicula purus purus vel orci. In diam urna, vehicula vitae ultrices nec, feugiat sit amet leo. In sagittis velit sem, in fermentum leo pulvinar nec. Cras dignissim nunc vel enim condimentum rutrum. Curabitur at lectus iaculis, dignissim justo eget, tincidunt dolor. Donec ut metus a lectus sollicitudin venenatis sit amet eget lacus. In vel lectus sit amet quam varius iaculis at ac erat. Maecenas dapibus id nunc tempor bibendum. Phasellus molestie eros libero, nec euismod velit iaculis nec.
+    </p>
+    <p>
+        Duis ut massa porttitor, hendrerit eros sed, efficitur purus. Donec ac libero sit amet ante placerat pellentesque quis varius velit. Donec id dolor molestie, facilisis mauris vitae, pellentesque mauris. Suspendisse porttitor gravida dui ut semper. Duis tellus libero, hendrerit ac tellus vel, efficitur varius odio. Vivamus scelerisque sodales auctor. Fusce nibh justo, pellentesque quis convallis eu, pellentesque sit amet purus.
+    </p>
+    <p>
+        Donec vehicula risus ligula, ut blandit risus convallis et. Vestibulum efficitur dapibus elit. Nam felis urna, accumsan posuere convallis iaculis, molestie euismod eros. Etiam nec pharetra erat, non interdum urna. Sed in augue ac nunc vehicula tincidunt vel et leo. Nunc bibendum dapibus velit a consectetur. Nam convallis non mi vitae consequat. Vivamus odio quam, malesuada vitae sem quis, sollicitudin aliquet mi. In tellus turpis, dapibus eu venenatis ac, varius vel dolor.
     </p>
 </div>
 
 <div id="footer">
-    <footer>
+    <footer class="center">
+        <h3>
+            Our Philosophy
+        </h3>
         <p>
-            text here
-        </p>
-        <p>
-            asjdf lajsf lajs ljas flajs jsa flajsd ladjslsdj fdl jdals jalsdfj alsdfj
-            alsdfj alsfj alsfj alsfjsadlf alsfj lasjfljadsf ljdsafl jsadfl djs
-            lasfj lasdjf l asjfl jlasjf lasjdf lsadjflasdjflsdajf ljs jsdlfj sdlafj l
-            aslfj lsadfj ladsj ldsajf ldsafj alsdfj sdlajf lsadfj lsdajf dlsajf lsadfj
-            lasjf lsdafj lsadj fldsjf ldsjf ldsajf lsadjf ljsadf ljsadfl jdsafl
-            alsjf lajsd lsadfj lajsdflds
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium enim libero, non pharetra nisi scelerisque in. Nam commodo laoreet tristique. Nunc eleifend semper semper. Vestibulum sem risus, congue a aliquet ac, laoreet non nibh. Curabitur dui nisl, faucibus nec elementum sit amet, efficitur sed sapien.
         </p>
     </footer>
 </div>
 
 </body>
+
 
 </html>

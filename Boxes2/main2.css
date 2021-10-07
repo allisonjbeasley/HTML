@@ -1,0 +1,106 @@
+/*
+    main1.css - uses a very conservative color scheme
+    that would appeal to old geezers
+    like me - black, dark gray, dark blue, maroon.
+    Also use conservative fonts like Times New Roman and Arial.
+ */
+
+body {
+    background-color:#4D4B30;
+    font-family: 'Open Sans', Futura, sans-serif;
+}
+
+#leftBlock {
+    border: 2.5px solid #DAA38B;
+    background-color:#FDF2E3;
+    color:#482216;
+    border-radius: 15px;
+}
+
+#rightBlock {
+    border: 2.5px solid #DAA38B;
+    background-color:#FDF2E3;
+    color:#482216;
+    border-radius: 15px;
+}
+
+#centerBlock {
+    border: 2.5px solid #DAA38B;
+    background-color:#FDF2E3;
+    color:#482216;
+    border-radius: 15px;
+}
+
+#header {
+    color:#FDF2E3;
+    font-family: 'Libre Baskerville', Georgia, serif;
+}
+
+#leftBlock h2 {
+    background-color:#908660;
+    color:#FDF2E3;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 10px;
+}
+
+#rightBlock h2 {
+    background-color:#908660;
+    color:#FDF2E3;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 10px;
+}
+
+#centerBlock h1 {
+    color:#FDF2E3;
+    background-color: #908660;
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 10px;
+}
+
+#footer h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#footer {
+    background-color: #F4CCA6;
+    color:  #482216;
+}
+
+a:link {
+    color: #482216;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#482216;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DAA38B;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.border {
+    border:4px solid #DAA38B;
+}
+
+.leftPic {
+    float: left;
+    margin-right: 20px;
+}
+
+.rightPic {
+    float: right;
+    margin: 20px;
+}
+
+br {
+    clear: both;
+}
+
+
+

@@ -7,7 +7,7 @@
 
 body {
     background-color:#E5E8E8;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 #leftBlock {
@@ -33,7 +33,7 @@ body {
 
 #header {
     color:#1B4F72;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Times New Roman", serif;
 }
 
 #leftBlock h2 {

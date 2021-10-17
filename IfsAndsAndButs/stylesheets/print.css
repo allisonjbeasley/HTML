@@ -1,0 +1,37 @@
+/*
+#p1 {
+    display:none;
+}
+
+will make something invisible which is often good for removing links/sponsored content/etc that would be irrelevant once printed.
+
+Make sure to link this stylesheet under media="print" on the webpage to activate it.
+
+ */
+
+#header {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#leftBlock, #rightBlock {
+    display: none;
+}
+
+#centerBlock {
+    font-family: "Times New Roman", serif;
+}
+
+#centerBlock h1, #centerBlock h2, #centerBlock h3 {
+    border-bottom: .2em solid gray;
+}
+
+.rightPic {
+    display: none;
+}
+
+.printstuff {
+    display: inline;
+}
+

@@ -1,0 +1,107 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+}
+.center {
+    text-align: center;
+}
+.redback {
+    background-color: #cc0000;
+}
+h1,h2,h3 {
+    font-family: "Times New Roman",serif;
+    color: #006699;
+}
+body {
+    font-family: Calibri, Arial, sans-serif;
+}
+#mainbox {
+    padding: 10px;
+}
+#mainbox h2 {
+    border-bottom: 3px solid #006699;
+}
+#mainbox h3 {
+    border-bottom: 2px solid #006699;
+}
+#leftbox {
+    border: 3px solid #006699;
+    background-color: #ebddc0;
+    text-align: right;
+    padding: 10px;
+    margin:10px;
+    font-size: 130%;
+
+}
+#leftbox a:link, .outsideLink a:link {
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#leftbox a:visited, .outsideLink a:visited {
+    color: #cc0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#leftbox a:hover, .outsideLink a:hover {
+    color: #006699;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contactbox {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#contactbox a:link, #contactbox a:visited {
+    color: white;
+    font-weight: normal;
+}
+
+#contactbox a:hover{
+    color: #ebddc0;
+    text-decoration: underline;
+}
+
+.contactheader {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.outsideLink {
+    background-color: #ebddc0;
+    text-align: center;
+}
+#footerBox {
+    text-align:center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    color: #006699;
+}
+.leftPic {
+    float: left;
+    margin: 10px;
+}
+.rightPic {
+    float: right;
+    margin: 10px;
+}
+br {
+    clear: both;
+}
+#mainbox a:link, #mainbox a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#mainbox a:hover {
+    text-decoration: underline;
+}

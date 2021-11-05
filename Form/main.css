@@ -1,0 +1,37 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: "Trebuchet MS" ,Helvetica, Calibri, Arial, sans-serif;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+#heading {
+    text-align: center;
+    background-color: #d4faff;
+    padding: 20px;
+    margin-bottom:20px;
+    margin-top:0px;
+}
+
+
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.center {
+    text-align: center;
+}

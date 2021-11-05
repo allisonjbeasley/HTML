@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+
+<div id="heading">
+    <h1>
+        Winter Activity Interest Form
+    </h1>
+
+    <h2>
+        Describe your favorite winter activities to be matched with other students of similar interests!
+    </h2>
+</div>
+
+
+
+<form action="stuff.php" method="post">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="nameinfo" size="30"></td>
+        </tr>
+        <tr>
+            <td>Class:</td>
+            <td>
+                <input type="radio" name="class" value="Freshman" >Freshman
+                <input type="radio" name="class" value="Sophomore" >Sophomore
+                <input type="radio" name="class" value="Junior" >Junior
+                <input type="radio" name="class" value="Senior" >Senior
+                <input type="radio" name="class" value="Grad" >Grad Student
+            </td>
+        </tr>
+        <tr>
+            <td>Favorite Activities:</td>
+            <td>
+                <input type="checkbox" name="activity" value="skiing">Skiing
+                <input type="checkbox" name="activity" value="snowboarding">Snowboarding
+                <input type="checkbox" name="activity" value="ice skating">Ice Skating
+                <input type="checkbox" name="activity" value="snowshoeing">Snowshoeing
+                <input type="checkbox" name="activity" value="crossCountrySkiing">Cross Country Skiing
+                <input type="checkbox" name="activity" value="hockey">Hockey
+            </td>
+        </tr>
+        <tr>
+            <td>Activity Frequency: </td>
+            <td>
+                <select id="frequencyOptions">
+                    <option value="monthly">A couple times a month</option>
+                    <option value="weekly">Once a week</option>
+                    <option value="frequently">2-5 times a week</option>
+                    <option value="daily">Almost everyday</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Describe your ideal winter activity buddy:</td>
+            <td>
+                <textarea id="buddy" rows="3" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Email?</td>
+            <td>
+                <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </td>
+        </tr>
+        <tr>
+            <td>Start Date:</td>
+            <td>
+                <input type="date" id="birthday" name="birthday">
+            </td>
+        </tr>
+        <tr>
+            <td id="bottomCell" colspan="2" class="center">
+                <input type="submit" value="Send the info!">
+            </td>
+        </tr>
+
+
+    </table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+#header{
+    text-align: center;
+    border: 0.2em groove #A9A9A9;
+    background-color:#E8EAE7;
+    color:black;
+    margin: 0.625em;
+    font-family: "Times New Roman","Big Caslon", "Goudy Old Style", Palatino,serif;
+}
+
+#header h1 {
+    font-size: 300%;
+}
+
+body {
+    font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
+    background-color:#EFEFEF;
+}
+
+#leftBlock {
+    display: none;
+}
+
+#rightBlock {
+    display: none;
+}
+
+
+#centerBlock {
+    margin-left: 15%;
+    margin-right: 25%;
+    padding: 0.625em;
+    border: 0.2em groove #A9A9A9;
+    color:black;
+    min-width: 200px;
+}
+
+table {
+    display: none;
+}
+
+
+

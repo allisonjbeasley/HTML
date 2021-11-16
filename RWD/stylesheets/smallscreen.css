@@ -7,8 +7,8 @@
 
 #header{
     text-align: center;
-    border: 0.2em groove #A9A9A9;
-    background-color:#E8EAE7;
+    border: 0.2em groove #57BC90;
+    background-color: #e7e2e2;
     color:black;
     margin: 0.625em;
     font-family: "Times New Roman","Big Caslon", "Goudy Old Style", Palatino,serif;
@@ -20,7 +20,7 @@
 
 body {
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
-    background-color:#EFEFEF;
+    background-color:#015249;
 }
 
 #leftBlock {
@@ -34,9 +34,9 @@ body {
     width: 100%;
     padding: 0.625em;
     margin-bottom: .625em;
-    border: 0.2em solid #FF3B3F;
-    background-color:#CAEBF2;
-    color: #414141;
+    border: 0.2em solid white;
+    background-color:#57BC90;
+    color: white;
 }
 
 
@@ -44,45 +44,49 @@ body {
     margin: auto;
     width: 100%;
     padding: 0.625em;
-    border: 0.2em groove #A9A9A9;
+    border: 0.2em groove #57BC90;
+    background-color: #e7e2e2;
     color:black;
     min-width: 200px;
 }
 
+#centerBlock h1,h2,h3,h4 {
+    font-family: "Times New Roman","Big Caslon", "Goudy Old Style", Palatino,serif;
+}
+
 
 td a:link{
-    color:#414141;
+    color:white;
     font-weight: bold;
     text-decoration: none;
 }
 
 td a:visited{
-    color: #414141;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 
 td a:hover{
-    color: #FF3B3F;
+    color: #015249;
     font-weight: bold;
     text-decoration: underline;
 }
 
 table {
     display: table;
-    width: 100%;
-    border: thin solid #414141;
+    width: 80%;
+    margin-left: 10%;
+    background-color:#57BC90;
+    border: thin solid white;
+    color: white;
     text-align: center;
     margin-bottom: 0.625em;
 
 
 }
 
-/*
-    Still to do: Make print style sheet, figure out left/right margins for small screen table,
-    fix colors.
-*/
 
 
 

@@ -1,8 +1,8 @@
 
 #header{
     text-align: center;
-    border: 0.2em groove #A9A9A9;
-    background-color:#E8EAE7;
+    border: 0.2em groove #57BC90;
+    background-color: #e7e2e2;
     color:black;
     margin: 0.625em;
     font-family: "Times New Roman","Big Caslon", "Goudy Old Style", Palatino,serif;
@@ -14,16 +14,16 @@
 
 body {
     font-family: "Franklin Gothic Medium", "Lucida Grande", sans-serif;
-    background-color:#EFEFEF;
+    background-color:#015249;
 }
 
 #leftBlock {
     float: left;
     width: 10%;
     padding: 0.625em;
-    border: 0.2em solid #FF3B3F;
-    background-color:#CAEBF2;
-    color:#414141;
+    border: 0.2em solid white;
+    background-color:#57BC90;
+    color:white;
 }
 
 #leftBlock ul{
@@ -37,9 +37,9 @@ body {
     float:right;
     width: 20%;
     padding: 0.625em;
-    border: 0.2em solid #FF3B3F;
-    background-color:#CAEBF2;
-    color: #414141;
+    border: 0.2em solid white;
+    background-color:#57BC90;
+    color: white;
 }
 
 
@@ -47,28 +47,32 @@ body {
     margin-left: 15%;
     margin-right: 25%;
     padding: 0.625em;
-    border: 0.2em groove #A9A9A9;
+    border: 0.2em groove #57BC90;
+    background-color: #e7e2e2;
     color:black;
     min-width: 200px;
 }
 
+#centerBlock h1,h2,h3,h4 {
+    font-family: "Times New Roman","Big Caslon", "Goudy Old Style", Palatino,serif;
+}
 
 
 #leftBlock a:link{
-    color:#414141;
+    color:white;
     font-weight: bold;
     text-decoration: none;
 }
 
 #leftBlock a:visited{
-    color: #414141;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 
 #leftBlock a:hover{
-    color: #FF3B3F;
+    color: #015249;
     font-weight: bold;
     text-decoration: underline;
 }

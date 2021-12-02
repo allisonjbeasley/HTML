@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+Colors:
+#BC4639 (medium)
+#D4A59A (light nude)
+#F3E0DC (really light)
+ */
+
+body {
+    background-color: #BC4639;
+}
+
+#header {
+    background-color: #4285F4;
+    width: 100%;
+    margin-top: 0;
+    color: #F3E0DC;
+    padding: 5px;
+}
+
+#titleBlock {
+    background-color: #F3E0DC;
+    margin-bottom: 10px;
+    font-size: 200%;
+    padding: 20px;
+    color: #31120b;
+}
+
+
+
+#section3 {
+    float: left;
+    margin-left: 20px;
+    width: 15%;
+    padding: 10px;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    color: #31120b;
+}
+#section5 {
+    float:right;
+    margin-right: 20px;
+    width: 20%;
+    padding: 10px;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    color: #31120b;
+}
+
+#section3 a:link, #section5 a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #BC4639;
+}
+
+#section3 a:visited, #section5 a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #5C2018;
+}
+
+#section3 a:hover, #section5 a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #4285F4;
+}
+
+#section4 {
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 15px;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    color: #31120b;
+}
+
+#section4 h2 {
+    font-size: 200%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section3 ul, #section5 ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#section3 li, #section5 li{
+    padding-top:10px;
+}
+
+#section6 {
+    margin-left: 20px;
+    margin-right: 25%;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    padding: 10px;
+    margin-top:25px;
+    color: #31120b;
+}
+
+#section6 h2{
+    font-size: 200%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#section7 {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #31120b;
+}
+
+#section6 h1, h2 {
+    font-size: 150%;
+}
+
+#section8 {
+    width: 100%;
+    background-color: #F3E0DC;
+    padding: 10px;
+    color: #5C2018;
+}
+
+#section9 {
+    background-color: #4285F4;
+    padding: 10px;
+    color: #F3E0DC;
+}
+
+#section10 {
+    padding: 10px;
+    color: #F3E0DC;
+}
+
+br {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.leftPic {
+    float: left;
+    margin-right: 20px;
+}
+
+.rightPic {
+    float: right;
+    margin: 20px;
+}
+
+/*
+Things to do next: add link box in div 6, add series of
+links and maybe small image in header div. Resize text, adjust fonts
+ */

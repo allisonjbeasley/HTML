@@ -12,6 +12,11 @@ Colors:
 
 body {
     background-color: #BC4639;
+    font-family: 'Cabin', "Trebuchet MS", sans-serif;
+}
+
+body h1, body h2, body h3{
+    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
 }
 
 #header {
@@ -28,6 +33,7 @@ body {
     font-size: 200%;
     padding: 20px;
     color: #31120b;
+    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
 }
 
 
@@ -103,6 +109,8 @@ body {
     font-size: 200%;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-family: 'Roboto Condensed', Sans-Serif;
+
 }
 
 #section7 {
@@ -122,18 +130,23 @@ body {
 #section8 {
     width: 100%;
     background-color: #F3E0DC;
-    padding: 10px;
+    padding: 20px;
     color: #5C2018;
+    font-size: 150%;
 }
 
 #section9 {
     background-color: #4285F4;
-    padding: 10px;
+    padding: 20px;
     color: #F3E0DC;
 }
 
+#section9 h3 {
+    padding-bottom: 10px
+}
+
 #section10 {
-    padding: 10px;
+    padding: 20px;
     color: #F3E0DC;
 }
 
@@ -155,7 +168,28 @@ br {
     margin: 20px;
 }
 
+#section6Button {
+    padding-top: 45px;
+}
+
+#section6Button a:link, #section6Button a:visited {
+    background-color: rgb(66, 133, 244);
+    color: #F3E0DC;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 150%;
+    border-radius: 10px;
+}
+
+#section6Button a:hover {
+    background-color: rgba(66, 133, 244, .75);
+}
+
+
 /*
-Things to do next: add link box in div 6, add series of
-links and maybe small image in header div. Resize text, adjust fonts
+Things to do next: add series of
+links and maybe small image in header div. Resize text as needed.
+Add different sizing stylesheets. Maybe adjust opacity
+on link here button b/c i'm not loving it.
  */

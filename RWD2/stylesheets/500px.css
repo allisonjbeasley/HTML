@@ -1,67 +1,55 @@
+@media screen and (max-width: 500px) {
+    * {
+        box-sizing: border-box;
+    }
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
-/*
-Colors:
-#BC4639 (medium)
-#D4A59A (light nude)
-#F3E0DC (really light)
- */
 
 body {
     background-color: #BC4639;
-    font-family: 'Cabin', "Trebuchet MS", sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body h1, body h2, body h3{
-    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 #header {
-    background-color: #4285F4;
-    width: 100%;
-    margin-top: 0;
-    color: #F3E0DC;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    text-align: center;
+    display: none;
 }
-
-
-
 
 
 #titleBlock {
     background-color: #F3E0DC;
     margin-bottom: 10px;
-    font-size: 200%;
+    font-size: 150%;
     padding: 20px;
     color: #31120b;
-    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 
 
 #section3 {
-    float: left;
-    margin-left: 20px;
-    width: 15%;
+
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     padding: 10px;
     background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
     color: #31120b;
+    margin-bottom: 20px;
+    text-align: center;
 }
 #section5 {
-    float:right;
-    margin-right: 20px;
-    width: 20%;
-    padding: 10px;
-    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
-    color: #31120b;
+    display: none;
 }
-
 
 #section3 a:link, #section3 a:visited {
     font-weight: bold;
@@ -77,14 +65,14 @@ body h1, body h2, body h3{
     border: 2px solid transparent;
 }
 
-#section5 a:link, #section5 a:visited {
+#section5v2 a:link, #section5v2 a:visited {
     font-weight: bold;
     text-decoration: none;
     color: #5C2018;
     border: 2px solid transparent;
 }
 
-#section5 a:hover {
+#section5v2 a:hover {
     font-weight: bold;
     color: #F3E0DC;
     border: 2px solid #4285F4;
@@ -92,16 +80,25 @@ body h1, body h2, body h3{
 }
 
 #section5v2 {
-    display: none;
-}
-
-#section4 {
-    margin-left: 20%;
-    margin-right: 25%;
-    padding: 15px;
+    display: block;
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px;
     background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
     color: #31120b;
     margin-bottom: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#section4 {
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
+    color: #31120b;
 }
 
 #section4 h2 {
@@ -110,23 +107,20 @@ body h1, body h2, body h3{
     padding-bottom: 10px;
 }
 
-#section3 ul, #section5 ul{
+#section3 ul, #section5v2 ul{
     list-style-type: none;
     padding-left: 0px;
 }
 
-#section3 li, #section5 li{
+#section3 li, #section5v2 li{
     padding-top:10px;
 }
 
 #section6 {
-    margin-left: 20px;
-    margin-right: 25%;
+    margin:auto;
     background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
     padding: 10px;
-    margin-top:25px;
     color: #31120b;
-
 }
 
 #section6 h2{
@@ -138,13 +132,7 @@ body h1, body h2, body h3{
 }
 
 #section7 {
-    float: right;
-    width: 20%;
-    padding: 10px;
-    background-image: linear-gradient(to top,#D4A59A, #F3E0DC);
-    margin-top: 15px;
-    margin-right: 20px;
-    color: #31120b;
+    display: none;
 }
 
 #section6 h1, h2 {
@@ -152,11 +140,7 @@ body h1, body h2, body h3{
 }
 
 #section8 {
-    width: 100%;
-    background-color: #F3E0DC;
-    padding: 20px;
-    color: #5C2018;
-    font-size: 150%;
+    display: none;
 }
 
 #section9 {
@@ -170,8 +154,7 @@ body h1, body h2, body h3{
 }
 
 #section10 {
-    padding: 20px;
-    color: #F3E0DC;
+    display: none;
 }
 
 br {
@@ -183,13 +166,11 @@ br {
 }
 
 .leftPic {
-    float: left;
-    margin-right: 20px;
+    display: none;
 }
 
 .rightPic {
-    float: right;
-    margin: 20px;
+    display: none;
 }
 
 #section6Button {
@@ -214,9 +195,10 @@ br {
 
 
 
+
 /*
-Things to do next: add series of
-links and maybe small image in header div. Resize text as needed.
-Add different sizing stylesheets. Maybe adjust opacity
+Things to do next: Maybe adjust opacity
 on link here button b/c i'm not loving it.
+Finish 500 px stylesheet and do print stylesheet.
+Review and validate, submit.
  */
